@@ -1,3 +1,7 @@
+---
+sidebar: auto
+---
+
 # Topics
 Progress or contribute to this project.
 ## Registrars
