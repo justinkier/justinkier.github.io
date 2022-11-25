@@ -77,9 +77,6 @@ export default defineUserConfig({
   bundler:
     process.env.DOCS_BUNDLER === 'webpack' ? webpackBundler() : viteBundler(),
 
-  import { defaultTheme } from 'vuepress'
-
-export default  {
   theme: defaultTheme({
     // default theme config
     navbar: [
