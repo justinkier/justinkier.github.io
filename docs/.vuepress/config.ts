@@ -78,19 +78,14 @@ export default defineUserConfig({
     process.env.DOCS_BUNDLER === 'webpack' ? webpackBundler() : viteBundler(),
 
   // configure default theme
-  import { defaultTheme } from 'vuepress'
-                                
-export default  {
   theme: defaultTheme({
-    // default theme config
-    navbar: [
-      {
-        text: 'Home',
-        link: '/',
-      },
-    ],
+    themePlugins: {
+      // only enable git plugin in production mode
+      git: isProd,
+      // use shiki plugin in production mode instead
+      prismjs: !isProd,
+    },
   }),
-},
 
   // configure markdown
   markdown: {
