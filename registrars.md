@@ -1,10 +1,25 @@
----
-heroText: VuePress Cont.
----
+
+[[toc]]
+
+:tada: :100:
+
+::: tip
+This is a tip
+:::
+
+::: warning
+This is a warning
+:::
+
+::: danger
+This is a dangerous warning
+:::
+
+::: details
+This is a details block, which does not work in IE / Edge
+:::
 
 ## Registrars
-### Hosting
-### Docs
 
 Looking to [research](./docs.md) the docs?
 Need to [register](./registrars.md) a domain name?
