@@ -1,4 +1,4 @@
-# vuepress-next
+# vuepress
 # Registrars
 # Hosting
 # Docs
@@ -15,6 +15,8 @@ For users who want to follow our progress or contribute to this project, please 
 ## Documentation
 
 https://v2.vuepress.vuejs.org
+
+### Let's get started!
 
 ## Contribution
 
