@@ -1,4 +1,7 @@
 # vuepress
+
+[[toc]]
+
 # Registrars
 # Hosting
 # Docs
