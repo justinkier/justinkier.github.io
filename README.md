@@ -1,6 +1,6 @@
 # vuepress-next
-# Registrars
-# Web Hosts
+# Registrars menu
+# Web Hosts menu
 
 
 ## Status: Beta
