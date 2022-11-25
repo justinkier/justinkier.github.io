@@ -63,13 +63,13 @@ export default defineUserConfig({
   locales: {
     '/': {
       lang: 'en-US',
-      title: 'VuePress',
-      description: 'Vue-powered Static Site Generator',
+      title: 'Justin Kier',
+      description: 'American technologist & artist',
     },
     '/zh/': {
       lang: 'zh-CN',
-      title: 'VuePress',
-      description: 'Vue 驱动的静态网站生成器',
+      title: 'Justin Kier',
+      description: 'Justin Kier 驱动的静态网站生成器',
     },
   },
 
@@ -77,14 +77,17 @@ export default defineUserConfig({
   bundler:
     process.env.DOCS_BUNDLER === 'webpack' ? webpackBundler() : viteBundler(),
 
-  // configure default theme
+  import { defaultTheme } from 'vuepress'
+
+export default  {
   theme: defaultTheme({
-    themePlugins: {
-      // only enable git plugin in production mode
-      git: isProd,
-      // use shiki plugin in production mode instead
-      prismjs: !isProd,
-    },
+    // default theme config
+    navbar: [
+      {
+        text: 'Home',
+        link: '/',
+      },
+    ],
   }),
 
   // configure markdown
