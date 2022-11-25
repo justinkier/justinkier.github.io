@@ -1,7 +1,8 @@
 # vuepress-next
-# Registrars menu
-# Hosting menu
+# Registrars
+# Hosting
 
+Need to [register](./registrars.md) a domain name?
 
 ## Status: Beta
 
