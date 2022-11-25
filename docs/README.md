@@ -1,6 +1,7 @@
 ---
-home: true
-title: Home
+home: false
+navbar: true
+title: Docs
 heroImage: /images/hero.png
 actions:
   - text: Get Started
