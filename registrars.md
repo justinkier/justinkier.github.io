@@ -1,5 +1,10 @@
+---
+sidebar: auto
+---
 
-[[toc]]
+# Registrar Guide
+
+## Overview
 
 :tada: :100:
 
