@@ -90,7 +90,7 @@ export default  {
       },
     ],
   }),
-}
+},
 
   // configure markdown
   markdown: {
