@@ -96,6 +96,10 @@ export default defineUserConfig({
   },
 
   // use plugins
+  module.exports = {
+    title: 'Justin Kier',
+    description: 'Justin Kier is a lead designer and technical entrepreneur.',
+  
   plugins: [
     ['@vuepress/blog', {
             directories: [{
