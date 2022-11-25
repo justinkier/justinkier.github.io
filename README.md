@@ -1,10 +1,10 @@
 # vuepress
 
-# Registrars
-# Hosting
-# Docs
+## Registrars
+## Hosting
 
 Need to [register](./registrars.md) a domain name?
+Need to [host](./hosting.md) a website?
 
 ## Status: Beta
 
