@@ -97,7 +97,7 @@ export default defineUserConfig({
 
   // use plugins
   plugins: [
-        ['@vuepress/blog', {
+    ['@vuepress/blog', {
             directories: [{
                 id: 'article',
                 dirname: '_articles',
@@ -120,8 +120,6 @@ export default defineUserConfig({
         ],
     }
 }
-  
-  [
     docsearchPlugin({
       appId: '34YFD9IUQ2',
       apiKey: '9a9058b8655746634e01071411c366b8',
