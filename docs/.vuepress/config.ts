@@ -96,10 +96,6 @@ export default defineUserConfig({
   },
 
   // use plugins
-  module.exports = {
-    title: 'Justin Kier',
-    description: 'Justin Kier is a lead designer and technical entrepreneur.',
-  
   plugins: [
     docsearchPlugin({
       appId: '34YFD9IUQ2',
