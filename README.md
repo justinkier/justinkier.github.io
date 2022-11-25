@@ -1,4 +1,9 @@
-# vuepress
+---
+home: true
+heroText: Springfield Dim Sum
+---
+
+## vuepress
 
 ## Registrars
 ## Hosting
