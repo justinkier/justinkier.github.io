@@ -4,7 +4,6 @@
 # Hosting
 # Docs
 
-Looking to [research](./docs.md) the docs?
 Need to [register](./registrars.md) a domain name?
 
 ## Status: Beta
