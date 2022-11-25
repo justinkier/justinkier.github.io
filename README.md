@@ -1,5 +1,5 @@
 ---
-home: true
+home: false
 navbar: true
 heroImage: /hero.png
 heroText: Hero Title
