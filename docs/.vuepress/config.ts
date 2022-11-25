@@ -119,7 +119,7 @@ export default defineUserConfig({
             { text: 'Articles', link: '/articles/' },
         ],
     }
-}
+},
     docsearchPlugin({
       appId: '34YFD9IUQ2',
       apiKey: '9a9058b8655746634e01071411c366b8',
