@@ -107,13 +107,13 @@ export default defineUserConfig({
                 },
             }],
             sitemap: {
-                hostname: 'https://nateritter.com'
+                hostname: 'https://justinkier.com'
             },
         }]
     ],
 
     themeConfig: {
-        author: 'Nate Ritter',
+        author: 'Justin Kier',
         nav: [
             { text: 'Home', link: '/' },
             { text: 'Articles', link: '/articles/' },
