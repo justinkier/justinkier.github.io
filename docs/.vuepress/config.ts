@@ -101,29 +101,6 @@ export default defineUserConfig({
     description: 'Justin Kier is a lead designer and technical entrepreneur.',
   
   plugins: [
-    ['@vuepress/blog', {
-            directories: [{
-                id: 'article',
-                dirname: '_articles',
-                itemPermalink: '/articles/:slug',
-                pagination: {
-                    lengthPerPage: 2,
-                },
-            }],
-            sitemap: {
-                hostname: 'https://justinkier.com'
-            },
-        }]
-    ],
-
-    themeConfig: {
-        author: 'Justin Kier',
-        nav: [
-            { text: 'Home', link: '/' },
-            { text: 'Articles', link: '/articles/' },
-        ],
-    }
-},
     docsearchPlugin({
       appId: '34YFD9IUQ2',
       apiKey: '9a9058b8655746634e01071411c366b8',
