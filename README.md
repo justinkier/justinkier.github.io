@@ -1,25 +1,42 @@
-# vuepress-next
-# Registrars
-# Hosting
-# Docs
+---
+home: true
+heroImage: /hero.png
+heroText: Hero Title
+tagline: Hero subtitle
+actionText: Get Started →
+actionLink: /guide/
+features:
+- title: Simplicity First
+  details: Minimal setup with markdown-centered project structure helps you focus on writing.
+- title: Vue-Powered
+  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
+- title: Performant
+  details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
+footer: MIT Licensed | Copyright © 2018-present Evan You
+---
+  
+# Top level header, aka H1
 
-Looking to [research](./docs.md) the docs?
-Need to [register](./registrars.md) a domain name?
+H1 is the most important header.
 
-## Status: Beta
+## Second level header
 
-For users from VuePress v1, please check out the [migration guide](https://v2.vuepress.vuejs.org/guide/migration.html).
+This gets converted to an H2
 
-For users who want to follow our progress or contribute to this project, please check out the [roadmap](https://github.com/vuepress/vuepress-next/discussions/68).
+### Third-level header
 
-## Documentation
+VuePress indexes only up to H3 for its searches
 
-https://v2.vuepress.vuejs.org
+#### Level 4 header, aka H4
 
-## Contribution
+People remember only about 3 levels of a hierarchy
 
-See [Contributing Guide](https://github.com/vuepress/vuepress-next/blob/main/docs/contributing.md).
+##### H5
 
-## License
+Who goes this low? and why?
 
-[MIT](https://github.com/vuepress/vuepress-next/blob/main/LICENSE)
+###### H6
+
+A level 6 header is used only by spelunkers.
+
+Normal text isn't indexed by VuePress's internal search.
