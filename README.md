@@ -1,5 +1,6 @@
 ---
 home: true
+navbar: true
 heroImage: /hero.png
 heroText: Hero Title
 tagline: Hero subtitle
